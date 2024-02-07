@@ -1,0 +1,43 @@
+Task Tracker App
+Overview
+The Task Tracker App is a comprehensive task management application designed to help users organize and track their tasks effectively. It provides a user-friendly interface for creating, viewing, editing, and deleting tasks. The application is built using a modern tech stack including React for the frontend, Node.js and Express for the backend server, and MongoDB for the database.
+
+
+Install Dependencies:
+Navigate to the root directory of the project and run the following command to install the necessary dependencies:
+
+
+npm install express mongoose mongodb cors dotenv react 
+
+
+Backend Dependencies
+Express (^4.18.2): Express is used as the server framework to handle HTTP requests and routes.
+Mongoose (^8.1.1): Mongoose is an elegant MongoDB object modeling tool designed to work in an asynchronous environment. It provides a straight-forward, schema-based solution to model application data.
+MongoDB (^6.3.0): MongoDB is a popular NoSQL database used to store and manage data for the application.
+Cors (^2.8.5): Cors middleware is used to enable Cross-Origin Resource Sharing, allowing the frontend to make requests to the backend server from a different origin.
+Dotenv (^16.4.1): Dotenv is used to load environment variables from a .env file into process.env.
+Frontend Dependencies
+React (^18.2.0): React is a JavaScript library for building user interfaces, providing a component-based architecture for developing interactive UIs.
+React-DOM (^18.2.0): React-DOM is used for rendering React components in the browser DOM.
+Running the Application
+Start the Backend Server:
+Navigate to the root directory of the project and run the following command to start the backend server:
+
+node app.js
+Start the Frontend Application:
+Navigate to the frontend directory (if separate) and run the following command to start the frontend application:
+
+sql
+npm start
+Features
+Task Management: Users can create new tasks, view existing tasks, edit task details, and delete tasks as needed.
+Task Prioritization: Tasks can be prioritized based on urgency or importance, helping users focus on what matters most.
+User-Friendly Interface: The application features an intuitive and easy-to-use interface, making task management a seamless experience for users.
+Environment Configuration
+Create a .env file in the root directory of the project with the following content:
+
+makefile
+MONGODB_URI=<your_mongodb_connection_string>
+PORT=5000
+Replace <your_mongodb_connection_string> 
+
